@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import groceryshop from "../images/Grocerylogo.png";
+import groceryshop from "../images/nsut.png";
 import amazonpay from "../images/amazonpay.svg";
 import american from "../images/american-express.svg";
 import mastercard from "../images/mastercard.svg";
@@ -28,13 +28,18 @@ const Footer = () => {
                     </Link>
                   </div>
                   <p className="mb-30">
-                    We deliver more than your expectations and help you to grow
-                    your business exponentially by providing customized
-                    applications. So, don’t just think, get ready to convert
-                    your ideas into reality.
+                    <b>Made For HCI Project - CSAI 2</b>
+                    <br></br>
+                    Pranay (1917)<br></br>
+                    Rohan (1919)<br></br>
+                    Chirag (1921)<br></br>
+                    Sainath (1923)<br></br>
+                    Sudhanshu (1945)
+
                   </p>
                 </div>
-                <div className="dimc-protect">
+                
+                {/* <div className="dimc-protect">
                   <div className="col-lg-5 text-lg-start text-center mb-2 mb-lg-0">
                     <h4>Payment Partners</h4>
                     <ul className="list-inline d-flex mb-0">
@@ -65,8 +70,8 @@ const Footer = () => {
                       </li>
                     </ul>
                   </div>
-                </div>
-              </div>
+                </div> */}
+              </div> 
               <div className="col-sm-6 col-lg-3 mb-30">
                 <div className="footer-widget mb-0">
                   <h4>All Category</h4>
@@ -307,13 +312,7 @@ const Footer = () => {
             <div className="container text-center">
               <div className="footer-copy">
                 <div className="copyright">
-                  © 2022 All Rights Reserved By
-                  <Link
-                    to="https://nigammishra.github.io/nigam-portfolio/"
-                    target="_blank"
-                  >
-                    @nigammishra
-                  </Link>
+                  Netaji Subhas University of Technology
                 </div>
               </div>
             </div>
