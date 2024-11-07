@@ -1,1 +1,1 @@
-Grocery App fro HCI Project
+Grocery Web Frontend
